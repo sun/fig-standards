@@ -43,10 +43,10 @@ PSR-5: PHPDoc
       8.20. @throws
       8.21. @todo
       8.22. @type
-      8.23. @typedef
-      8.24. @uses
-      8.25. @var [deprecated]
-      8.26. @version
+      8.22. @typedef
+      8.23. @uses
+      8.24. @var [deprecated]
+      8.25. @version
     Appendix A. Types
     Appendix B. Differences Compared With The De-facto PHPDoc Standard
 
@@ -1679,7 +1679,7 @@ class Foo
 }
 ```
 
-### 8.23. @typedef
+### 8.22. @typedef
 
 Allows the author to define a custom type composed of one or more types that
 may be augmented with key definitions, properties or methods.
@@ -1797,7 +1797,7 @@ Indicates whether the current "Structural Element" consumes the
 
 #### Description
 
-The `@uses` tag describes whether any part of the associated "Structural Element"
+The @uses tag describes whether any part of the associated "Structural Element"
 uses, or consumes, another "Structural Element" or a file that is situated in
 the current project.
 
@@ -1839,12 +1839,12 @@ function executeMyView()
 }
 ```
 
-### 8.25. @var [deprecated]
+### 8.24. @var [deprecated]
 
 The @var tag is **deprecated** in favor of `@type`. Please see the
 documentation for [@type](#822-type) for details of its usage.
 
-### 8.26. @version
+### 8.25. @version
 
 The @version tag is used to denote some description of "versioning" to an
 element.
